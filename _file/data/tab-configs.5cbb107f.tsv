@@ -1,0 +1,13 @@
+Parameter	Run 1073355	Run 1069802
+Model	Qwen2.5-7B-Instruct, bfloat16, one GPU per agent	Qwen2.5-7B-Instruct, bfloat16, one GPU per agent
+Adapter	LoRA, r = 32, α = 64, no dropout, all attention and MLP projections	LoRA, r = 32, α = 64, no dropout, all attention and MLP projections
+Relationships	circular	all repelling
+System prompt	Below is a political question or statement. State your opinion.	Below is a political question or statement. State your opinion. Do not hedge or present both sides. Respond in English.
+Batch	P = 4 prompts × G = 4 completions per agent and step	P = 4 prompts × G = 4 completions per agent and step
+Sampling	temperature 1, no top-p or top-k, no repetition penalty, at most 700 new tokens	temperature 1, no top-p or top-k, no repetition penalty, at most 700 new tokens
+Reward	mean over peers of the summed peer log-prob, noise σ = 0.1	mean over peers of the summed peer log-prob minus the base log-prob, noise σ = 1, length penalty −5·10⁻⁸ (T − 350)⁴
+Advantage	group mean baseline within each prompt, not normalised	group mean baseline within each prompt plus 0.1 × (prompt mean − batch mean), normalised
+Loss	summed completion log-prob, no KL penalty	per-token mean completion log-prob, KL penalty towards the base (k3, coefficient 0.01)
+Optimiser	AdamW, learning rate 10⁻⁵ (linear warm-up from 0.1× over 50 steps), no weight decay, gradient norm clipped at 1	AdamW, learning rate 10⁻⁵ (linear warm-up from 0.1× over 50 steps), no weight decay, gradient norm clipped at 1
+Prompts	360 smartvote questions, positive, negative and neutral variants by Qwen2.5-7B-Instruct	360 smartvote questions, positive, negative and neutral variants by Qwen2.5-7B-Instruct
+Length	811 steps	1928 steps

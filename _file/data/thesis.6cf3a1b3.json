@@ -1,0 +1,23 @@
+{
+  "title": "A Society of Three",
+  "subtitle": "Peer-Log-Probability Reward Signals and Co-Evolving Language Models",
+  "type": "Master Thesis",
+  "author": "Flavio Righetti",
+  "supervisors": [
+    "Martin Schüle"
+  ],
+  "institute": "Institute of Computational Life Sciences",
+  "university": "Zurich University of Applied Sciences",
+  "abstract": null,
+  "chapters": {
+    "1": "Introduction",
+    "2": "Background and Related Work",
+    "3": "A Minimal Model of a Learning Society",
+    "4": "Experimental Design",
+    "5": "Results",
+    "6": "Discussion",
+    "7": "Conclusion and Future Work",
+    "A": "Training Configurations",
+    "B": "Declaration of Originality"
+  }
+}

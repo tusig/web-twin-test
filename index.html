@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta name="generator" content="Observable Framework v1.13.4">
+<title>A Society of Three</title>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&amp;display=swap" crossorigin>
+<link rel="preload" as="style" href="./_import/style.4f682b9c.css">
+<link rel="preload" as="style" href="./_observablehq/stdlib/inputs.f7bf0e12.css">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&amp;display=swap" crossorigin>
+<link rel="stylesheet" type="text/css" href="./_import/style.4f682b9c.css">
+<link rel="stylesheet" type="text/css" href="./_observablehq/stdlib/inputs.f7bf0e12.css">
+<link rel="modulepreload" href="./_observablehq/client.b09e1b20.js">
+<link rel="modulepreload" href="./_observablehq/runtime.13bc3751.js">
+<link rel="modulepreload" href="./_observablehq/stdlib.3a5bae2b.js">
+<link rel="modulepreload" href="./_import/components/twin.e2b3847c.js">
+<link rel="modulepreload" href="./_import/components/paper.df20fca1.js">
+<link rel="modulepreload" href="./_import/components/stepfig.a07eb90d.js">
+<link rel="modulepreload" href="./_import/components/societies.e9664ad3.js">
+<link rel="modulepreload" href="./_import/components/timeseries.0bdbf71f.js">
+<link rel="modulepreload" href="./_import/components/completions.4e8c1bda.js">
+<link rel="modulepreload" href="./_npm/d3@7.9.2/172963d6.js">
+<link rel="modulepreload" href="./_npm/htl@1.0.0/11521f02.js">
+<link rel="modulepreload" href="./_observablehq/stdlib/inputs.a43d632f.js">
+<link rel="modulepreload" href="./_npm/@observablehq/plot@0.6.19/2e9f152c.js">
+<link rel="modulepreload" href="./_npm/markdown-it@15.0.3/6a9622f8.js">
+<link rel="modulepreload" href="./_npm/d3-dsv@3.0.2/4a4147a2.js">
+<link rel="modulepreload" href="./_npm/isoformat@0.2.1/604cb63b.js">
+<link rel="modulepreload" href="./_npm/d3-array@3.2.5/52d144d7.js">
+<link rel="modulepreload" href="./_npm/d3-axis@3.0.1/c0e5fbdf.js">
+<link rel="modulepreload" href="./_npm/d3-brush@3.0.1/321ca391.js">
+<link rel="modulepreload" href="./_npm/d3-chord@3.0.2/468a53d3.js">
+<link rel="modulepreload" href="./_npm/d3-color@3.1.1/91613843.js">
+<link rel="modulepreload" href="./_npm/d3-contour@4.0.3/8e79d948.js">
+<link rel="modulepreload" href="./_npm/d3-delaunay@6.0.6/d6c84ddb.js">
+<link rel="modulepreload" href="./_npm/d3-dispatch@3.0.2/a70bd0ef.js">
+<link rel="modulepreload" href="./_npm/d3-drag@3.0.1/47229f37.js">
+<link rel="modulepreload" href="./_npm/d3-ease@3.0.2/ca4f77fd.js">
+<link rel="modulepreload" href="./_npm/d3-fetch@3.0.2/eef84249.js">
+<link rel="modulepreload" href="./_npm/d3-force@3.0.1/c1b23a7b.js">
+<link rel="modulepreload" href="./_npm/d3-format@3.1.3/b1442952.js">
+<link rel="modulepreload" href="./_npm/d3-geo@3.1.2/e07dc79e.js">
+<link rel="modulepreload" href="./_npm/d3-hierarchy@3.1.3/d3b0a1aa.js">
+<link rel="modulepreload" href="./_npm/d3-interpolate@3.0.2/6de199be.js">
+<link rel="modulepreload" href="./_npm/d3-path@3.1.1/9eb769d3.js">
+<link rel="modulepreload" href="./_npm/d3-polygon@3.0.2/93595b54.js">
+<link rel="modulepreload" href="./_npm/d3-quadtree@3.0.2/80bafd54.js">
+<link rel="modulepreload" href="./_npm/d3-random@3.0.2/8bf3f736.js">
+<link rel="modulepreload" href="./_npm/d3-scale@4.0.3/d15d690b.js">
+<link rel="modulepreload" href="./_npm/d3-scale-chromatic@3.1.1/287966da.js">
+<link rel="modulepreload" href="./_npm/d3-selection@3.0.1/c4158eb5.js">
+<link rel="modulepreload" href="./_npm/d3-shape@3.2.1/a41eab18.js">
+<link rel="modulepreload" href="./_npm/d3-time@3.1.1/acaa76bc.js">
+<link rel="modulepreload" href="./_npm/d3-time-format@4.1.1/d561e9cd.js">
+<link rel="modulepreload" href="./_npm/d3-timer@3.0.2/ea7e7cf7.js">
+<link rel="modulepreload" href="./_npm/d3-transition@3.0.2/f861168f.js">
+<link rel="modulepreload" href="./_npm/d3-zoom@3.0.1/c1f09323.js">
+<link rel="modulepreload" href="./_npm/mdurl@2.1.0/d8bf2686.js">
+<link rel="modulepreload" href="./_npm/uc.micro@3.0.0/d9f0944b.js">
+<link rel="modulepreload" href="./_npm/entities@8.1.0/8eda504c.js">
+<link rel="modulepreload" href="./_npm/linkify-it@6.1.0/f373605f.js">
+<link rel="modulepreload" href="./_npm/punycode.js@2.3.1/8cb78bf0.js">
+<script type="module">
+
+import {define} from "./_observablehq/client.b09e1b20.js";
+import {registerFile} from "./_observablehq/stdlib.3a5bae2b.js";
+
+registerFile("./data/completions.json", {"name":"./data/completions.json","mimeType":"application/json","path":"./_file/data/completions.5a5a9d6b.json","lastModified":1795536996905,"size":4080919});
+registerFile("./data/figures.json", {"name":"./data/figures.json","mimeType":"application/json","path":"./_file/data/figures.000e5962.json","lastModified":1795536996769,"size":1971});
+registerFile("./data/prompts.csv", {"name":"./data/prompts.csv","mimeType":"text/csv","path":"./_file/data/prompts.55e92c22.csv","lastModified":1795536996959,"size":108219});
+registerFile("./data/recurring-question.txt", {"name":"./data/recurring-question.txt","mimeType":"text/plain","path":"./_file/data/recurring-question.5ed5b1dd.txt","lastModified":1795536996930,"size":74});
+registerFile("./data/references.json", {"name":"./data/references.json","mimeType":"application/json","path":"./_file/data/references.7884cdab.json","lastModified":1795536996803,"size":16118});
+registerFile("./data/runs.json", {"name":"./data/runs.json","mimeType":"application/json","path":"./_file/data/runs.deb9d01a.json","lastModified":1795536996864,"size":231});
+registerFile("./data/steps.csv", {"name":"./data/steps.csv","mimeType":"text/csv","path":"./_file/data/steps.6540b5be.csv","lastModified":1795536996842,"size":428202});
+registerFile("./data/tab-configs.tsv", {"name":"./data/tab-configs.tsv","mimeType":"text/tab-separated-values","path":"./_file/data/tab-configs.5cbb107f.tsv","lastModified":1795536996979,"size":1744});
+registerFile("./data/thesis.json", {"name":"./data/thesis.json","mimeType":"application/json","path":"./_file/data/thesis.6cf3a1b3.json","lastModified":1795536996716,"size":683});
+registerFile("./thesis.pdf", {"name":"./thesis.pdf","mimeType":"application/pdf","path":"./_file/thesis.d2670e1e.pdf","lastModified":1795536996823,"size":403692});
+
+define({id: "b6e4e7b8", inputs: ["FileAttachment"], outputs: ["twinHead","paperHead","chapterHead","refList","stepFigure","societiesFigure","timeSeries","completionBrowser","recurringBrowser","thesis","figs","refs","pdf","steps","stepsCsv","runs","completions","completionsJson","printedQuestion","prompts","promptsCsv","configs","configsTsv"], body: async (FileAttachment) => {
+const [{twinHead}, {paperHead, chapterHead, refList}, {stepFigure}, {societiesFigure}, {timeSeries}, {completionBrowser, recurringBrowser}] = await Promise.all([import("./_import/components/twin.e2b3847c.js"), import("./_import/components/paper.df20fca1.js"), import("./_import/components/stepfig.a07eb90d.js"), import("./_import/components/societies.e9664ad3.js"), import("./_import/components/timeseries.0bdbf71f.js"), import("./_import/components/completions.4e8c1bda.js")]);
+
+const thesis = FileAttachment("./data/thesis.json").json();
+const figs = FileAttachment("./data/figures.json").json();
+const refs = FileAttachment("./data/references.json").json();
+const pdf = FileAttachment("./thesis.pdf").href;
+
+const steps = FileAttachment("./data/steps.csv").csv({typed: true});
+const stepsCsv = FileAttachment("./data/steps.csv").href;
+const runs = FileAttachment("./data/runs.json").json();
+const completions = FileAttachment("./data/completions.json").json();
+const completionsJson = FileAttachment("./data/completions.json").href;
+const printedQuestion = FileAttachment("./data/recurring-question.txt").text().then((t) => t.trim());
+
+const prompts = FileAttachment("./data/prompts.csv").csv({typed: true});
+const promptsCsv = FileAttachment("./data/prompts.csv").href;
+const configs = FileAttachment("./data/tab-configs.tsv").tsv();
+const configsTsv = FileAttachment("./data/tab-configs.tsv").href;
+return {twinHead,paperHead,chapterHead,refList,stepFigure,societiesFigure,timeSeries,completionBrowser,recurringBrowser,thesis,figs,refs,pdf,steps,stepsCsv,runs,completions,completionsJson,printedQuestion,prompts,promptsCsv,configs,configsTsv};
+}});
+
+define({id: "038cc89f", mode: "inline", inputs: ["paperHead","thesis","pdf","display"], body: async (paperHead,thesis,pdf,display) => {
+display(await(
+paperHead(thesis, {pdf})
+))
+}});
+
+define({id: "f5dc3da6", mode: "inline", inputs: ["thesis","html","display"], body: async (thesis,html,display) => {
+display(await(
+thesis.abstract ?? html`<p class="placeholder">The abstract will appear here once it is written. It is taken from the same source as the printed thesis.</p>`
+))
+}});
+
+define({id: "85c24734", mode: "inline", inputs: ["chapterHead","thesis","figs","display"], body: async (chapterHead,thesis,figs,display) => {
+display(await(
+chapterHead(thesis, figs["fig-step"])
+))
+}});
+
+define({id: "aba92e14", mode: "inline", inputs: ["twinHead","figs","display"], body: async (twinHead,figs,display) => {
+display(await(
+twinHead(figs["fig-step"])
+))
+}});
+
+define({id: "ed52e0e3", mode: "inline", inputs: ["stepFigure","display"], body: async (stepFigure,display) => {
+display(await(
+stepFigure()
+))
+}});
+
+define({id: "a96eaaa1", mode: "inline", inputs: ["chapterHead","thesis","figs","display"], body: async (chapterHead,thesis,figs,display) => {
+display(await(
+chapterHead(thesis, figs["fig-societies"])
+))
+}});
+
+define({id: "515d1d8a", mode: "inline", inputs: ["twinHead","figs","display"], body: async (twinHead,figs,display) => {
+display(await(
+twinHead(figs["fig-societies"])
+))
+}});
+
+define({id: "9c632a6d", mode: "inline", inputs: ["societiesFigure","display"], body: async (societiesFigure,display) => {
+display(await(
+societiesFigure()
+))
+}});
+
+define({id: "c96ef19a", inputs: ["Inputs","d3","prompts","Generators"], outputs: ["areaPick","area"], body: (Inputs,d3,prompts,Generators) => {
+// Table 4.1 prints one question; the twin lets the reader browse the whole prompt set.
+const areaPick = Inputs.select(["All areas", ...d3.sort(new Set(prompts.map((d) => d.area)))], {label: "Policy area"});
+const area = Generators.input(areaPick);
+return {areaPick,area};
+}});
+
+define({id: "ada39d67", inputs: ["area","prompts","Inputs","Generators"], outputs: ["pool","promptSearch","searched"], body: (area,prompts,Inputs,Generators) => {
+// The search runs within the chosen area, so its result count is right.
+const pool = area === "All areas" ? prompts : prompts.filter((d) => d.area === area);
+const promptSearch = Inputs.search(pool, {placeholder: `Search ${pool.length} questions…`});
+const searched = Generators.input(promptSearch);
+return {pool,promptSearch,searched};
+}});
+
+define({id: "90a2021d", mode: "inline", inputs: ["twinHead","figs","promptsCsv","display"], body: async (twinHead,figs,promptsCsv,display) => {
+display(await(
+twinHead(figs["tab-framings"], {csv: promptsCsv})
+))
+}});
+
+define({id: "22e4a4b4", mode: "inline", inputs: ["areaPick","display"], body: async (areaPick,display) => {
+display(await(
+areaPick
+))
+}});
+
+define({id: "c79e57ee", mode: "inline", inputs: ["promptSearch","display"], body: async (promptSearch,display) => {
+display(await(
+promptSearch
+))
+}});
+
+define({id: "c5546311", mode: "inline", inputs: ["Inputs","searched","display"], body: async (Inputs,searched,display) => {
+display(await(
+Inputs.table(searched, {
+    columns: ["area", "plus", "minus", "neutral"],
+    header: {area: "Policy area", plus: "Opposing (+)", minus: "Opposing (−)", neutral: "Neutral"},
+    width: {area: 130, plus: 250, minus: 250, neutral: 250},
+    layout: "fixed",
+    select: false,
+    rows: 12
+  })
+))
+}});
+
+define({id: "15c6aec7", mode: "inline", inputs: ["chapterHead","thesis","figs","display"], body: async (chapterHead,thesis,figs,display) => {
+display(await(
+chapterHead(thesis, figs["fig-timeseries"])
+))
+}});
+
+define({id: "fe7bb5e9", inputs: ["runs"], outputs: ["tsState"], body: (runs) => {
+// Kept outside the figure so a window resize does not reset the chosen run, smoothing or step.
+const tsState = ({run: runs.find((r) => r.printed)?.id, smooth: 1, step: null});
+return {tsState};
+}});
+
+define({id: "f2480829", mode: "inline", inputs: ["twinHead","figs","stepsCsv","display"], body: async (twinHead,figs,stepsCsv,display) => {
+display(await(
+twinHead(figs["fig-timeseries"], {csv: stepsCsv})
+))
+}});
+
+define({id: "bdfe1f86", mode: "inline", inputs: ["resize","timeSeries","steps","runs","tsState","display"], body: async (resize,timeSeries,steps,runs,tsState,display) => {
+display(await(
+resize((width) => timeSeries(steps, runs, tsState, {width}))
+))
+}});
+
+define({id: "22b5073c", inputs: ["runs"], outputs: ["cbState","rqState"], body: (runs) => {
+const cbState = ({run: runs.find((r) => r.printed)?.id, step: 0});
+const rqState = ({run: runs.find((r) => r.printed)?.id, question: null});
+return {cbState,rqState};
+}});
+
+define({id: "33dd3cf8", mode: "inline", inputs: ["twinHead","figs","completionsJson","display"], body: async (twinHead,figs,completionsJson,display) => {
+display(await(
+twinHead(figs["tab-timeline"], {csv: completionsJson, label: "JSON"})
+))
+}});
+
+define({id: "4212f6a9", mode: "inline", inputs: ["completionBrowser","completions","runs","cbState","display"], body: async (completionBrowser,completions,runs,cbState,display) => {
+display(await(
+completionBrowser(completions, runs, cbState)
+))
+}});
+
+define({id: "3a2ff2fe", mode: "inline", inputs: ["twinHead","figs","completionsJson","display"], body: async (twinHead,figs,completionsJson,display) => {
+display(await(
+twinHead(figs["tab-recurring"], {csv: completionsJson, label: "JSON"})
+))
+}});
+
+define({id: "7e2705d4", mode: "inline", inputs: ["recurringBrowser","completions","runs","rqState","printedQuestion","display"], body: async (recurringBrowser,completions,runs,rqState,printedQuestion,display) => {
+display(await(
+recurringBrowser(completions, runs, rqState, printedQuestion)
+))
+}});
+
+define({id: "d7b2caa6", mode: "inline", inputs: ["refList","refs","display"], body: async (refList,refs,display) => {
+display(await(
+refList(refs)
+))
+}});
+
+define({id: "321ed3b1", inputs: ["Inputs","Generators","configs"], outputs: ["onlyDiff","diffOnly","runCols"], body: (Inputs,Generators,configs) => {
+const onlyDiff = Inputs.toggle({label: "Only differences"});
+const diffOnly = Generators.input(onlyDiff);
+const runCols = configs.columns.slice(1);
+return {onlyDiff,diffOnly,runCols};
+}});
+
+define({id: "969d4a71", mode: "inline", inputs: ["chapterHead","thesis","figs","display"], body: async (chapterHead,thesis,figs,display) => {
+display(await(
+chapterHead(thesis, figs["tab-configs"])
+))
+}});
+
+define({id: "07f51c05", mode: "inline", inputs: ["twinHead","figs","configsTsv","display"], body: async (twinHead,figs,configsTsv,display) => {
+display(await(
+twinHead(figs["tab-configs"], {csv: configsTsv})
+))
+}});
+
+define({id: "f39fafbd", mode: "inline", inputs: ["onlyDiff","display"], body: async (onlyDiff,display) => {
+display(await(
+onlyDiff
+))
+}});
+
+define({id: "bec721db", mode: "inline", inputs: ["runCols","html","display"], body: async (runCols,html,display) => {
+display(await(
+runCols.map((c) => html`<th>${c}</th>`)
+))
+}});
+
+define({id: "e2f3bfb2", mode: "inline", inputs: ["configs","runCols","diffOnly","html","display"], body: async (configs,runCols,diffOnly,html,display) => {
+display(await(
+configs
+        .map((r) => ({r, differs: new Set(runCols.map((c) => r[c])).size > 1}))
+        .filter(({differs}) => !diffOnly || differs)
+        .map(({r, differs}) => html`<tr class=${differs ? "differs" : ""}><td>${r.Parameter}</td>${runCols.map((c) => html`<td>${r[c]}</td>`)}</tr>`)
+))
+}});
+
+define({id: "54344fe7", inputs: ["steps","runs","completions","figs","refs","prompts","configs","location"], body: (steps,runs,completions,figs,refs,prompts,configs,location) => {
+// Charts render after page load and push content down; re-scroll so the QR target lands on screen.
+{
+  steps, runs, completions, figs, refs, prompts, configs; // wait for the data
+  const id = decodeURIComponent(location.hash.slice(1));
+  const el = id && document.getElementById(id);
+  if (el) requestAnimationFrame(() => requestAnimationFrame(() => el.scrollIntoView({block: "start"})));
+}
+}});
+
+</script>
+</head>
+<body>
+<div id="observablehq-center">
+<main id="observablehq-main" class="observablehq">
+<div class="observablehq observablehq--block"><!--:b6e4e7b8:--></div>
+<div class="paper-top"><observablehq-loading></observablehq-loading><!--:038cc89f:--></div>
+<section id="abstract" class="paper-abstract">
+  <h2>Abstract</h2>
+  <observablehq-loading></observablehq-loading><!--:f5dc3da6:-->
+</section>
+<!--
+  Main text: one <section class="twin" id="<label>"> per figure/table, in print order.
+  The id must equal the LaTeX label, because the printed QR code points to #<label>.
+  Before the first twin of each chapter, add a div with class "chapter" holding a
+  chapterHead(thesis, figs["<first label of the chapter>"]) expression.
+-->
+<div class="chapter"><observablehq-loading></observablehq-loading><!--:85c24734:--></div>
+<section id="fig-step" class="twin">
+  <observablehq-loading></observablehq-loading><!--:aba92e14:-->
+  <observablehq-loading></observablehq-loading><!--:ed52e0e3:-->
+</section>
+<div class="chapter"><observablehq-loading></observablehq-loading><!--:a96eaaa1:--></div>
+<section id="fig-societies" class="twin">
+  <observablehq-loading></observablehq-loading><!--:515d1d8a:-->
+  <observablehq-loading></observablehq-loading><!--:9c632a6d:-->
+</section>
+<div class="observablehq observablehq--block"><!--:c96ef19a:--></div>
+<div class="observablehq observablehq--block"><!--:ada39d67:--></div>
+<section id="tab-framings" class="twin">
+  <observablehq-loading></observablehq-loading><!--:90a2021d:-->
+  <div class="prompt-controls"><observablehq-loading></observablehq-loading><!--:22e4a4b4:--><observablehq-loading></observablehq-loading><!--:c79e57ee:--></div>
+  <observablehq-loading></observablehq-loading><!--:c5546311:-->
+  <p class="soc-hint">Policy area names are descriptive labels for smartvote's 15 areas.</p>
+</section>
+<div class="chapter"><observablehq-loading></observablehq-loading><!--:15c6aec7:--></div>
+<div class="observablehq observablehq--block"><!--:fe7bb5e9:--></div>
+<section id="fig-timeseries" class="twin">
+  <observablehq-loading></observablehq-loading><!--:f2480829:-->
+  <observablehq-loading></observablehq-loading><!--:bdfe1f86:-->
+</section>
+<div class="observablehq observablehq--block"><!--:22b5073c:--></div>
+<section id="tab-timeline" class="twin">
+  <observablehq-loading></observablehq-loading><!--:33dd3cf8:-->
+  <observablehq-loading></observablehq-loading><!--:4212f6a9:-->
+</section>
+<section id="tab-recurring" class="twin">
+  <observablehq-loading></observablehq-loading><!--:3a2ff2fe:-->
+  <observablehq-loading></observablehq-loading><!--:7e2705d4:-->
+</section>
+<section id="references" class="paper-refs">
+  <h2>References</h2>
+  <observablehq-loading></observablehq-loading><!--:d7b2caa6:-->
+</section>
+<div class="observablehq observablehq--block"><!--:321ed3b1:--></div>
+<section id="appendix" class="paper-appendix">
+  <h2>Appendix</h2>
+  <div class="chapter"><observablehq-loading></observablehq-loading><!--:969d4a71:--></div>
+  <section id="tab-configs" class="twin">
+    <observablehq-loading></observablehq-loading><!--:07f51c05:-->
+    <observablehq-loading></observablehq-loading><!--:f39fafbd:-->
+    <table class="configs">
+      <thead><tr><th>Parameter</th><!--:bec721db:--></tr></thead>
+      <tbody><!--:e2f3bfb2:--></tbody>
+    </table>
+    <p class="soc-hint">Highlighted rows differ between the runs.</p>
+  </section>
+  <p class="placeholder">Further appendix figures, tables and interactive applications, such as the completion browser, will appear here.</p>
+</section>
+<div class="observablehq observablehq--block"><!--:54344fe7:--></div>
+</main>
+<footer id="observablehq-footer">
+<div>Interactive companion to the printed thesis.</div>
+</footer>
+</div>
+</body>
+</html>

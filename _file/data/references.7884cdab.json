@@ -1,0 +1,672 @@
+[
+  {
+    "n": 1,
+    "key": "gilbert1995",
+    "authors": "Nigel Gilbert and Rosaria Conte, eds.",
+    "title": "Artificial Societies. The Computer Simulation of Social Life",
+    "book": true,
+    "details": [
+      "London, UCL Press"
+    ],
+    "year": "1995",
+    "links": []
+  },
+  {
+    "n": 2,
+    "key": "epstein1996",
+    "authors": "Joshua M. Epstein and Robert Axtell",
+    "title": "Growing Artificial Societies. Social Science from the Bottom Up",
+    "book": true,
+    "details": [
+      "Brookings Institution Press, MIT Press"
+    ],
+    "year": "1996",
+    "links": []
+  },
+  {
+    "n": 3,
+    "key": "subramaniam2025",
+    "authors": "Vighnesh Subramaniam et al.",
+    "title": "Multiagent Finetuning. Self Improvement with Diverse Reasoning Chains",
+    "book": false,
+    "details": [
+      "In International Conference on Learning Representations (ICLR)"
+    ],
+    "year": "2025",
+    "links": [
+      {
+        "label": "arXiv:2501.05707",
+        "href": "https://arxiv.org/abs/2501.05707"
+      }
+    ]
+  },
+  {
+    "n": 4,
+    "key": "xue2026",
+    "authors": "Xiangyuan Xue et al.",
+    "title": "CoMAS. Co-Evolving Multi-Agent Systems via Interaction Rewards",
+    "book": false,
+    "details": [
+      "In International Conference on Learning Representations (ICLR)"
+    ],
+    "year": "2026",
+    "links": [
+      {
+        "label": "arXiv:2510.08529",
+        "href": "https://arxiv.org/abs/2510.08529"
+      }
+    ]
+  },
+  {
+    "n": 5,
+    "key": "zhou2025",
+    "authors": "Xiangxin Zhou et al.",
+    "title": "Reinforcing General Reasoning without Verifiers",
+    "book": false,
+    "details": [
+      "In International Conference on Learning Representations (ICLR)"
+    ],
+    "year": "2026",
+    "links": [
+      {
+        "label": "arXiv:2505.21493",
+        "href": "https://arxiv.org/abs/2505.21493"
+      }
+    ]
+  },
+  {
+    "n": 6,
+    "key": "yu2025",
+    "authors": "Tianyu Yu et al.",
+    "title": "RLPR. Extrapolating RLVR to General Domains without Verifiers",
+    "book": true,
+    "details": [],
+    "year": "2025",
+    "links": [
+      {
+        "label": "arXiv:2506.18254",
+        "href": "https://arxiv.org/abs/2506.18254"
+      }
+    ]
+  },
+  {
+    "n": 7,
+    "key": "vanvalen1973",
+    "authors": "Leigh Van Valen",
+    "title": "A New Evolutionary Law",
+    "book": false,
+    "details": [
+      "Evolutionary Theory 1",
+      "pp. 1–30"
+    ],
+    "year": "1973",
+    "links": []
+  },
+  {
+    "n": 8,
+    "key": "brown1956",
+    "authors": "William L. Brown and Edward O. Wilson",
+    "title": "Character Displacement",
+    "book": false,
+    "details": [
+      "Systematic Zoology 5.2",
+      "pp. 49–64"
+    ],
+    "year": "1956",
+    "links": [
+      {
+        "label": "DOI",
+        "href": "https://doi.org/10.2307/2411924"
+      }
+    ]
+  },
+  {
+    "n": 9,
+    "key": "cui2025",
+    "authors": "Ganqu Cui et al.",
+    "title": "The Entropy Mechanism of Reinforcement Learning for Reasoning Language Models",
+    "book": true,
+    "details": [],
+    "year": "2025",
+    "links": [
+      {
+        "label": "arXiv:2505.22617",
+        "href": "https://arxiv.org/abs/2505.22617"
+      }
+    ]
+  },
+  {
+    "n": 10,
+    "key": "hu2022",
+    "authors": "Edward J. Hu et al.",
+    "title": "LoRA. Low-Rank Adaptation of Large Language Models",
+    "book": false,
+    "details": [
+      "In International Conference on Learning Representations (ICLR)"
+    ],
+    "year": "2022",
+    "links": []
+  },
+  {
+    "n": 11,
+    "key": "qwen2024",
+    "authors": "Qwen Team",
+    "title": "Qwen2.5 Technical Report",
+    "book": true,
+    "details": [],
+    "year": "2024",
+    "links": [
+      {
+        "label": "arXiv:2412.15115",
+        "href": "https://arxiv.org/abs/2412.15115"
+      }
+    ]
+  },
+  {
+    "n": 12,
+    "key": "ahmadian2024",
+    "authors": "Arash Ahmadian et al.",
+    "title": "Back to Basics. Revisiting REINFORCE-Style Optimization for Learning from Human Feedback in LLMs",
+    "book": false,
+    "details": [
+      "In Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics",
+      "pp. 12248–12267"
+    ],
+    "year": "2024",
+    "links": []
+  },
+  {
+    "n": 13,
+    "key": "smartvote",
+    "authors": "Politools – Political Research Network",
+    "title": "smartvote",
+    "book": true,
+    "details": [
+      "Swiss voting advice application"
+    ],
+    "year": "2026",
+    "links": [
+      {
+        "label": "www.smartvote.ch",
+        "href": "https://www.smartvote.ch"
+      }
+    ]
+  },
+  {
+    "n": 14,
+    "key": "wang2025",
+    "authors": "Shenzhi Wang et al.",
+    "title": "Beyond the 80/20 Rule. High-Entropy Minority Tokens Drive Effective Reinforcement Learning for LLM Reasoning",
+    "book": false,
+    "details": [
+      "In Advances in Neural Information Processing Systems, Vol. 38"
+    ],
+    "year": "2025",
+    "links": [
+      {
+        "label": "arXiv:2506.01939",
+        "href": "https://arxiv.org/abs/2506.01939"
+      }
+    ]
+  },
+  {
+    "n": 15,
+    "key": "liu2025",
+    "authors": "Zichen Liu et al.",
+    "title": "Understanding R1-Zero-Like Training. A Critical Perspective",
+    "book": true,
+    "details": [],
+    "year": "2025",
+    "links": [
+      {
+        "label": "arXiv:2503.20783",
+        "href": "https://arxiv.org/abs/2503.20783"
+      }
+    ]
+  },
+  {
+    "n": 16,
+    "key": "sutton2018",
+    "authors": "Richard S. Sutton and Andrew G. Barto",
+    "title": "Reinforcement Learning. An Introduction",
+    "book": true,
+    "details": [
+      "MIT Press"
+    ],
+    "year": "2018",
+    "links": []
+  },
+  {
+    "n": 17,
+    "key": "williams1992",
+    "authors": "Ronald J. Williams",
+    "title": "Simple Statistical Gradient-Following Algorithms for Connectionist Reinforcement Learning",
+    "book": false,
+    "details": [
+      "Machine Learning 8.3–4",
+      "pp. 229–256"
+    ],
+    "year": "1992",
+    "links": [
+      {
+        "label": "DOI",
+        "href": "https://doi.org/10.1007/BF00992696"
+      }
+    ]
+  },
+  {
+    "n": 18,
+    "key": "skinner1981",
+    "authors": "B. F. Skinner",
+    "title": "Selection by Consequences",
+    "book": false,
+    "details": [
+      "Science 213.4507",
+      "pp. 501–504"
+    ],
+    "year": "1981",
+    "links": [
+      {
+        "label": "DOI",
+        "href": "https://doi.org/10.1126/science.7244649"
+      }
+    ]
+  },
+  {
+    "n": 19,
+    "key": "schulman2017",
+    "authors": "John Schulman et al.",
+    "title": "Proximal Policy Optimization Algorithms",
+    "book": true,
+    "details": [],
+    "year": "2017",
+    "links": [
+      {
+        "label": "arXiv:1707.06347",
+        "href": "https://arxiv.org/abs/1707.06347"
+      }
+    ]
+  },
+  {
+    "n": 20,
+    "key": "ouyang2022",
+    "authors": "Long Ouyang et al.",
+    "title": "Training Language Models to Follow Instructions with Human Feedback",
+    "book": false,
+    "details": [
+      "In Advances in Neural Information Processing Systems, Vol. 35"
+    ],
+    "year": "2022",
+    "links": [
+      {
+        "label": "arXiv:2203.02155",
+        "href": "https://arxiv.org/abs/2203.02155"
+      }
+    ]
+  },
+  {
+    "n": 21,
+    "key": "kool2019",
+    "authors": "Wouter Kool, Herke Hoof and Max Welling",
+    "title": "Buy 4 REINFORCE Samples, Get a Baseline for Free!",
+    "book": false,
+    "details": [
+      "In ICLR Workshop on Deep Reinforcement Learning Meets Structured Prediction"
+    ],
+    "year": "2019",
+    "links": []
+  },
+  {
+    "n": 22,
+    "key": "shao2024",
+    "authors": "Zhihong Shao et al.",
+    "title": "DeepSeekMath. Pushing the Limits of Mathematical Reasoning in Open Language Models",
+    "book": true,
+    "details": [],
+    "year": "2024",
+    "links": [
+      {
+        "label": "arXiv:2402.03300",
+        "href": "https://arxiv.org/abs/2402.03300"
+      }
+    ]
+  },
+  {
+    "n": 23,
+    "key": "axelrod1997",
+    "authors": "Robert Axelrod",
+    "title": "The Dissemination of Culture. A Model with Local Convergence and Global Polarization",
+    "book": false,
+    "details": [
+      "Journal of Conflict Resolution 41.2",
+      "pp. 203–226"
+    ],
+    "year": "1997",
+    "links": [
+      {
+        "label": "DOI",
+        "href": "https://doi.org/10.1177/0022002797041002001"
+      }
+    ]
+  },
+  {
+    "n": 24,
+    "key": "park2023",
+    "authors": "Joon Sung Park et al.",
+    "title": "Generative Agents. Interactive Simulacra of Human Behavior",
+    "book": false,
+    "details": [
+      "In Proceedings of the 36th Annual ACM Symposium on User Interface Software and Technology (UIST)"
+    ],
+    "year": "2023",
+    "links": [
+      {
+        "label": "arXiv:2304.03442",
+        "href": "https://arxiv.org/abs/2304.03442"
+      }
+    ]
+  },
+  {
+    "n": 25,
+    "key": "du2024",
+    "authors": "Yilun Du et al.",
+    "title": "Improving Factuality and Reasoning in Language Models through Multiagent Debate",
+    "book": false,
+    "details": [
+      "In International Conference on Machine Learning (ICML)"
+    ],
+    "year": "2024",
+    "links": [
+      {
+        "label": "arXiv:2305.14325",
+        "href": "https://arxiv.org/abs/2305.14325"
+      }
+    ]
+  },
+  {
+    "n": 26,
+    "key": "foerster2016",
+    "authors": "Jakob N. Foerster et al.",
+    "title": "Learning to Communicate with Deep Multi-Agent Reinforcement Learning",
+    "book": false,
+    "details": [
+      "In Advances in Neural Information Processing Systems, Vol. 29"
+    ],
+    "year": "2016",
+    "links": [
+      {
+        "label": "arXiv:1605.06676",
+        "href": "https://arxiv.org/abs/1605.06676"
+      }
+    ]
+  },
+  {
+    "n": 27,
+    "key": "lazaridou2017",
+    "authors": "Angeliki Lazaridou, Alexander Peysakhovich and Marco Baroni",
+    "title": "Multi-Agent Cooperation and the Emergence of (Natural) Language",
+    "book": false,
+    "details": [
+      "In International Conference on Learning Representations (ICLR)"
+    ],
+    "year": "2017",
+    "links": [
+      {
+        "label": "arXiv:1612.07182",
+        "href": "https://arxiv.org/abs/1612.07182"
+      }
+    ]
+  },
+  {
+    "n": 28,
+    "key": "chen2024",
+    "authors": "Zixiang Chen et al.",
+    "title": "Self-Play Fine-Tuning Converts Weak Language Models to Strong Language Models",
+    "book": false,
+    "details": [
+      "In International Conference on Machine Learning (ICML)"
+    ],
+    "year": "2024",
+    "links": [
+      {
+        "label": "arXiv:2401.01335",
+        "href": "https://arxiv.org/abs/2401.01335"
+      }
+    ]
+  },
+  {
+    "n": 29,
+    "key": "yuan2024",
+    "authors": "Weizhe Yuan et al.",
+    "title": "Self-Rewarding Language Models",
+    "book": false,
+    "details": [
+      "In International Conference on Machine Learning (ICML)"
+    ],
+    "year": "2024",
+    "links": [
+      {
+        "label": "arXiv:2401.10020",
+        "href": "https://arxiv.org/abs/2401.10020"
+      }
+    ]
+  },
+  {
+    "n": 30,
+    "key": "hernandezleal2017",
+    "authors": "Pablo Hernandez-Leal et al.",
+    "title": "A Survey of Learning in Multiagent Environments. Dealing with Non-Stationarity",
+    "book": true,
+    "details": [],
+    "year": "2017",
+    "links": [
+      {
+        "label": "arXiv:1707.09183",
+        "href": "https://arxiv.org/abs/1707.09183"
+      }
+    ]
+  },
+  {
+    "n": 31,
+    "key": "lehman2011",
+    "authors": "Joel Lehman and Kenneth O. Stanley",
+    "title": "Abandoning Objectives. Evolution through the Search for Novelty Alone",
+    "book": false,
+    "details": [
+      "Evolutionary Computation 19.2",
+      "pp. 189–223"
+    ],
+    "year": "2011",
+    "links": [
+      {
+        "label": "DOI",
+        "href": "https://doi.org/10.1162/EVCO_a_00025"
+      }
+    ]
+  },
+  {
+    "n": 32,
+    "key": "zhao2025",
+    "authors": "Xuandong Zhao et al.",
+    "title": "Learning to Reason without External Rewards",
+    "book": false,
+    "details": [
+      "In International Conference on Learning Representations (ICLR)"
+    ],
+    "year": "2026",
+    "links": [
+      {
+        "label": "arXiv:2505.19590",
+        "href": "https://arxiv.org/abs/2505.19590"
+      }
+    ]
+  },
+  {
+    "n": 33,
+    "key": "agarwal2025",
+    "authors": "Shivam Agarwal et al.",
+    "title": "The Unreasonable Effectiveness of Entropy Minimization in LLM Reasoning",
+    "book": false,
+    "details": [
+      "In Advances in Neural Information Processing Systems, Vol. 38"
+    ],
+    "year": "2025",
+    "links": [
+      {
+        "label": "arXiv:2505.15134",
+        "href": "https://arxiv.org/abs/2505.15134"
+      }
+    ]
+  },
+  {
+    "n": 34,
+    "key": "schmidhuber1991",
+    "authors": "Jürgen Schmidhuber",
+    "title": "A Possibility for Implementing Curiosity and Boredom in Model-Building Neural Controllers",
+    "book": false,
+    "details": [
+      "In From Animals to Animats. Proceedings of the First International Conference on Simulation of Adaptive Behavior",
+      "pp. 222–227"
+    ],
+    "year": "1991",
+    "links": []
+  },
+  {
+    "n": 35,
+    "key": "pathak2017",
+    "authors": "Deepak Pathak et al.",
+    "title": "Curiosity-Driven Exploration by Self-Supervised Prediction",
+    "book": false,
+    "details": [
+      "In International Conference on Machine Learning (ICML)"
+    ],
+    "year": "2017",
+    "links": [
+      {
+        "label": "arXiv:1705.05363",
+        "href": "https://arxiv.org/abs/1705.05363"
+      }
+    ]
+  },
+  {
+    "n": 36,
+    "key": "kirk2024",
+    "authors": "Robert Kirk et al.",
+    "title": "Understanding the Effects of RLHF on LLM Generalisation and Diversity",
+    "book": false,
+    "details": [
+      "In International Conference on Learning Representations (ICLR)"
+    ],
+    "year": "2024",
+    "links": [
+      {
+        "label": "arXiv:2310.06452",
+        "href": "https://arxiv.org/abs/2310.06452"
+      }
+    ]
+  },
+  {
+    "n": 37,
+    "key": "singhal2024",
+    "authors": "Prasann Singhal et al.",
+    "title": "A Long Way to Go. Investigating Length Correlations in RLHF",
+    "book": false,
+    "details": [
+      "In Conference on Language Modeling (COLM)"
+    ],
+    "year": "2024",
+    "links": [
+      {
+        "label": "arXiv:2310.03716",
+        "href": "https://arxiv.org/abs/2310.03716"
+      }
+    ]
+  },
+  {
+    "n": 38,
+    "key": "skalse2022",
+    "authors": "Joar Skalse et al.",
+    "title": "Defining and Characterizing Reward Hacking",
+    "book": false,
+    "details": [
+      "In Advances in Neural Information Processing Systems, Vol. 35"
+    ],
+    "year": "2022",
+    "links": [
+      {
+        "label": "arXiv:2209.13085",
+        "href": "https://arxiv.org/abs/2209.13085"
+      }
+    ]
+  },
+  {
+    "n": 39,
+    "key": "gao2023",
+    "authors": "Leo Gao, John Schulman and Jacob Hilton",
+    "title": "Scaling Laws for Reward Model Overoptimization",
+    "book": false,
+    "details": [
+      "In International Conference on Machine Learning (ICML)"
+    ],
+    "year": "2023",
+    "links": [
+      {
+        "label": "arXiv:2210.10760",
+        "href": "https://arxiv.org/abs/2210.10760"
+      }
+    ]
+  },
+  {
+    "n": 40,
+    "key": "shumailov2024",
+    "authors": "Ilia Shumailov et al.",
+    "title": "AI Models Collapse When Trained on Recursively Generated Data",
+    "book": false,
+    "details": [
+      "Nature 631",
+      "pp. 755–759"
+    ],
+    "year": "2024",
+    "links": [
+      {
+        "label": "DOI",
+        "href": "https://doi.org/10.1038/s41586-024-07566-y"
+      }
+    ]
+  },
+  {
+    "n": 41,
+    "key": "dohare2024",
+    "authors": "Shibhansh Dohare et al.",
+    "title": "Loss of Plasticity in Deep Continual Learning",
+    "book": false,
+    "details": [
+      "Nature 632",
+      "pp. 768–774"
+    ],
+    "year": "2024",
+    "links": [
+      {
+        "label": "DOI",
+        "href": "https://doi.org/10.1038/s41586-024-07711-7"
+      }
+    ]
+  },
+  {
+    "n": 42,
+    "key": "balduzzi2018",
+    "authors": "David Balduzzi et al.",
+    "title": "The Mechanics of n-Player Differentiable Games",
+    "book": false,
+    "details": [
+      "In International Conference on Machine Learning (ICML)"
+    ],
+    "year": "2018",
+    "links": [
+      {
+        "label": "arXiv:1802.05642",
+        "href": "https://arxiv.org/abs/1802.05642"
+      }
+    ]
+  }
+]

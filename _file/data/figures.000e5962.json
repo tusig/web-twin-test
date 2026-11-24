@@ -1,0 +1,51 @@
+{
+  "fig-step": {
+    "type": "figure",
+    "number": "3.1",
+    "chapter": "3",
+    "page": "9",
+    "caption": "One step of the society, seen from a single agent with two peers. The agent answers a prompt, the peers react to its message with their own next-token distributions, the reactions are weighted by the relationships and summed into a reward, and the agent learns from the experience of the step. All agents go through this step at the same time"
+  },
+  "fig-societies": {
+    "type": "figure",
+    "number": "4.1",
+    "chapter": "4",
+    "page": "14",
+    "caption": "The two societies. An arrow from agent $i$ to agent $j$ carries the relationship $w_ij$, solid for attraction and dashed for repulsion"
+  },
+  "tab-framings": {
+    "type": "table",
+    "number": "4.1",
+    "chapter": "4",
+    "page": "14",
+    "caption": "The three framings of one question from the prompt set"
+  },
+  "fig-timeseries": {
+    "type": "figure",
+    "number": "5.1",
+    "chapter": "5",
+    "page": "16",
+    "caption": "The circular society over 811 steps of training. Reward, per-token log-probability under the base model, length and entropy of each agent. All values are means over the 16 completions of an agent in a step"
+  },
+  "tab-timeline": {
+    "type": "table",
+    "number": "5.1",
+    "chapter": "5",
+    "page": "18",
+    "caption": "What the agents say. The first completion of each agent to the first prompt of selected steps, cut after a few words, with its length in tokens in brackets"
+  },
+  "tab-recurring": {
+    "type": "table",
+    "number": "5.2",
+    "chapter": "5",
+    "page": "19",
+    "caption": "One question over time. The first completion of each agent whenever the question on wealth taxes was drawn, cut after a few words, with its length in tokens in brackets"
+  },
+  "tab-configs": {
+    "type": "table",
+    "number": "A.1",
+    "chapter": "A",
+    "page": "25",
+    "caption": "Training configurations of the two presented runs"
+  }
+}
